@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaArrowDownLong } from "react-icons/fa6";
 import { FaArrowUpLong } from "react-icons/fa6";
-{/* <FaArrowUpLong /> */ }
 const Questions = () => {
   return (
     <div className=' bg-black h-full text-white pt-14'>
