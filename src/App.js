@@ -1,10 +1,15 @@
-import DemoComponent from "./DemoComponent";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import MainPage from "./pages/MainPage";
+import './App.css'
 
-
+// import Page from "./page/Page"
 function App() {
   return (
-    <div>
-   <DemoComponent />
+    <div className="absolute">
+      <Header />
+      <MainPage />
+      <Footer/>
     </div>
   );
 }
