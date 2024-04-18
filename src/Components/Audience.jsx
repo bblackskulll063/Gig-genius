@@ -28,18 +28,17 @@ const Audience = () => {
 
         <div class=" col-span-2 ">
           <div className='grid md:grid-cols-3 h-full'>
-            <div class="px-10 md-border-none border-t-2 border-gray-600">
+            <div class="px-10  border-t-2 border-gray-600">
               <h1 className='text-4xl py-6 '>Email subscriptions.</h1>
-              <p className='pt-4 '>Reach readers by having your stories <span >delivered</span> straight to their inboxes.</p>
+              <p className='md:pt-4 py-4'>Reach readers by having your stories <span >delivered</span> straight to their inboxes.</p>
             </div>
             <div class="px-10 md:border-x-2 border-t-2 border-gray-600">
               <h1 className='text-4xl py-6'>Interactive discussions.</h1>
-              <p className='pt-4 '>Build relationships with your readers through a <span >threaded comments</span> section.</p>
-
+              <p className='md:pt-4 py-4'>Build relationships with your readers through a <span >threaded comments</span> section.</p>
             </div>
             <div class="pl-10 pr-16  border-t-2 border-gray-600">
               <h1 className='text-4xl py-6 '>Custom design.</h1>
-              <p className='pt-4 '>Easily <span>customize</span> your page to stand out and build your brand.</p>
+              <p className='md:pt-4 py-4'>Easily <span>customize</span> your page to stand out and build your brand.</p>
             </div>
           </div>
         </div>

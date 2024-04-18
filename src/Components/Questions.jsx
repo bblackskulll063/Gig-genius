@@ -4,7 +4,7 @@ import { FaArrowUpLong } from "react-icons/fa6";
 const Questions = () => {
   return (
     <div className=' bg-black h-full text-white pt-14'>
-      <h1 className='text-4xl px-10 mb-16'>More about writing on Medium:</h1>
+      <h1 className='md:text-4xl text-3xl px-10 mb-16'>More about writing on Medium:</h1>
 
       <div>
         <div className='px-10 py-5 border-b border-white'>
@@ -57,9 +57,9 @@ const Questions = () => {
         </div>
       </div>
 
-      <div className="flex justify-center py-5">
-        <p className='pt-1'>Looking for help getting started?</p>
-        <button className='bg-white text-black rounded-full px-6 py-1 mx-3'>Check out our guide</button>
+      <div className="flex justify-center py-5 px-10">
+        <p className='pt-1 md:text-base text-sm'>Looking for help getting started?</p>
+        <button className='md:text-base text-sm bg-white text-black rounded-full px-6 py-1 mx-3'>Check out our guide</button>
       </div>
     </div>
   )

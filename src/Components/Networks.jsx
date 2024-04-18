@@ -37,7 +37,7 @@ const Networks = () => {
         <div className='px-10 bg-black text-white'>
             <div className="grid md:grid-cols-2 sm:grid-cols-1">
                 <h1 className='pt-5 md:text-7xl text-5xl md:w-2/3'>Join a network of curious minds.</h1>
-                <div className='p-8'>
+                <div className='md:p-8 py-8'>
                     <hr />
                     {ProfileItems.map((profile,index) => (
                         <div key={index} className='flex border-b py-1'>
